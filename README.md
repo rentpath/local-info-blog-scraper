@@ -3,6 +3,12 @@
 This script will take a specific google spreadsheet and generate the configuration 
 file needed by ag.js to display blog articles in the local info pop-up of SRP pages
 
+# Image Cache
+
+There is a file `image-cache` in this repository. DO NOT DELETE. This file contains Cloudinary
+id's based on base64 encodings of the image URLs. This will ensure that we don't generate unessesary images
+and allows us to run this script at will multiple times.
+
 # Help
 
 ```
