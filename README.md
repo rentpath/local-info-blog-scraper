@@ -3,13 +3,24 @@
 This script will take a specific google spreadsheet and generate the configuration 
 file needed by ag.js to display blog articles in the local info pop-up of SRP pages
 
+# Setup
+
+The developer running this will need to have a google developer console account
+and correctly setup a `Service account`. The `google-spreadsheet` module has
+[an entire runthrough in their docs](https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication).
+
+The end result is a JSON file that you will point to with the `-c | --credentials` command
+
+A very important step is that you will have to invite the lengthy google services account email address to
+the spreadsheet. If you don't do this step, you will get an authentication error.
+
 # Image Cache
 
 There is a file `image-cache` in this repository. DO NOT DELETE. This file contains Cloudinary
 id's based on base64 encodings of the image URLs. This will ensure that we don't generate unessesary images
 and allows us to run this script at will multiple times.
 
-# Help
+# Command Help
 
 ```
 ./process-sheet.js -h
