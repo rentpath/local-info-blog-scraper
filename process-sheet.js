@@ -156,7 +156,7 @@ function writeFinal(data) {
 	}
 
    return new Promise((resolve, reject) => {
-      fs.writeFile('final.json', JSON.stringify(data, undefined, 2), (err) => {
+      fs.writeFile(options.output, JSON.stringify(data, undefined, 2), (err) => {
          if (err) {
             reject(err)
          }
