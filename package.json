@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "commander": "^7.1.0",
+    "flat-cache": "^3.0.4",
+    "google-spreadsheet": "^3.1.15",
+    "prompt": "^1.1.0",
+    "style-to-js": "^1.1.0"
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "Atlanta": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/atlanta/",
+      "imageId": "5ecf864f16d4ce58bdbdace44741b4b8",
+      "link": "https://www.apartmentguide.com/blog/living-in-atlanta/",
+      "title": "10 Things to Know About Living in Atlanta",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/atlanta/",
+      "imageId": "6a45e561fed477864344ab8429e30458",
+      "link": "https://www.apartmentguide.com/blog/best-apartments-in-atlanta-near-delta-headquarters/",
+      "title": "The Best Apartments in Atlanta Near Delta Headquarters",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/atlanta/",
+      "imageId": "e8a0f3e7b8efcfbe2f5fa7b15370eb5d",
+      "link": "https://www.apartmentguide.com/blog/best-apartments-in-atlanta-near-ups-headquarters/",
+      "title": "The Best Apartments in Atlanta Near UPS Headquarters",
+      "topics": []
+    }
+  ],
+  "Austin": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/austin/",
+      "imageId": "d86568e306fcd7ab379f0f7485c208dc",
+      "link": "https://www.apartmentguide.com/blog/living-in-austin/",
+      "title": "10 Things to Know About Living in Austin",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/austin/",
+      "imageId": "46de5a73a29e3938ec8ded46ab878eb9",
+      "link": "https://www.apartmentguide.com/blog/most-popular-apartments-in-austin/",
+      "title": "The 25 Most Popular Apartments in Austin",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/austin/",
+      "imageId": "8e8d1399e0ff43b20dc87274ed75e98e",
+      "link": "https://www.apartmentguide.com/blog/austin-most-popular-businesses-maps/",
+      "title": "This is How Austin Looks According to the Most Popular Businesses",
+      "topics": []
+    }
+  ],
+  "Baltimore": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/baltimore/",
+      "imageId": "441664f0a8b06d14907e8b5d16d4ffe6",
+      "link": "https://www.apartmentguide.com/blog/living-in-baltimore/",
+      "title": "10 Things to Know About Living in Baltimore",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/baltimore/",
+      "imageId": "b818e2765fd91769f8010cbfe9bf4bc6",
+      "link": "https://www.apartmentguide.com/blog/baltimore-fun-facts/",
+      "title": "50 Fun Facts About Baltimore",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/baltimore/",
+      "imageId": "9a80fa960ad14ddbafcc487ae3c438ca",
+      "link": "https://www.apartmentguide.com/blog/most-popular-baltimore-neighborhoods/",
+      "title": "The 5 Most Popular Baltimore Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Birmingham": [
+    {
+      "imageId": "968fa2cf760cd800666c0af3dd5bd3ea",
+      "link": "https://www.apartmentguide.com/blog/most-popular-birmingham-neighborhoods/",
+      "title": "The 5 Most Popular Birmingham Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "08fdbf3db217eb7c0d20f3e6df484ae6",
+      "link": "https://www.apartmentguide.com/blog/birmingham-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Birmingham?",
+      "topics": []
+    }
+  ],
+  "Boston": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/boston/",
+      "imageId": "335f6369686d63d062136235b60ffefd",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-boston/",
+      "title": "Boston Neighborhoods by Average Rent Prices",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/boston/",
+      "imageId": "fbf2533c408865da8be944e220e5ee3d",
+      "link": "https://www.apartmentguide.com/blog/boston-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Boston?",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/boston/",
+      "imageId": "4ab2b261b007fe81bcbfeae3c28e591e",
+      "link": "https://www.apartmentguide.com/blog/most-searched-boston-neighborhoods/",
+      "title": "The 5 Most Searched Boston Neighborhoods by Renters",
+      "topics": []
+    }
+  ],
+  "Charleston": [
+    {
+      "imageId": "0341e9e2cbfeb7f1f7e3e2340e878f03",
+      "link": "https://www.apartmentguide.com/blog/historic-homes-charleston-sc/",
+      "title": "Historic Homes and Buildings in Charleston, SC",
+      "topics": []
+    }
+  ],
+  "Charlotte": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/charlotte/",
+      "imageId": "5f13b9faf07a54904c646b6559ad28ac",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-charlotte/",
+      "title": "The Average Rent in Charlotte",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/charlotte/",
+      "imageId": "214f4328060f5918f2ad87e7cd8081ca",
+      "link": "https://www.apartmentguide.com/blog/best-parks-in-charlotte/",
+      "title": "The Best Parks in Charlotte to Enjoy an Afternoon",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/charlotte/",
+      "imageId": "e7a3e5164aee6636019e08f0a44334b5",
+      "link": "https://www.apartmentguide.com/blog/charlotte-cheap-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Charlotte?",
+      "topics": []
+    }
+  ],
+  "Chicago": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/chicago/",
+      "imageId": "d9d45b4a27772e72cf31625d238d8857",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-chicago/",
+      "title": "Chicago Neighborhoods by Average Rent Prices",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/chicago/",
+      "imageId": "310d2995f08c394eb9641c3ffe0f668d",
+      "link": "https://www.apartmentguide.com/blog/living-in-chicago/",
+      "title": "10 Things to Know About Living in Chicago",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/chicago/",
+      "imageId": "675946ee4474279d78877cf3c71595c2",
+      "link": "https://www.apartmentguide.com/blog/chicago-fun-facts/",
+      "title": "50 Fun Facts About Chicago",
+      "topics": []
+    }
+  ],
+  "Cincinnati": [
+    {
+      "imageId": "5e9e779908544c7289e9768c3956489d",
+      "link": "https://www.apartmentguide.com/blog/most-popular-cincinnati-neighborhoods/",
+      "title": "The 5 Most Popular Cincinnati Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "e0f3990e1e0675fd76a5060775f9a816",
+      "link": "https://www.apartmentguide.com/blog/cincinnati-neighborhoods-guide/",
+      "title": "Cincinnati Neighborhoods: A Guide",
+      "topics": []
+    }
+  ],
+  "Cleveland": [
+    {
+      "imageId": "770d3f6c1c4ec3f76e6e011ab2608494",
+      "link": "https://www.apartmentguide.com/blog/most-popular-cleveland-neighborhoods/",
+      "title": "The 5 Most Popular Cleveland Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Colorado Springs": [
+    {
+      "imageId": "6142d332d560c19c5a0a464041b39ef1",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-colorado-springs/",
+      "title": "The Average Rent in Colorado Springs",
+      "topics": []
+    },
+    {
+      "imageId": "41ff6264dc88150ee895a97a1587bf9d",
+      "link": "https://www.apartmentguide.com/blog/most-popular-colorado-springs-neighborhoods/",
+      "title": "The 5 Most Popular Colorado Springs Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Columbus": [
+    {
+      "imageId": "cbd24052b4a56f242b50efb12bcc1e94",
+      "link": "https://www.apartmentguide.com/blog/columbus-oh-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Columbus?",
+      "topics": []
+    },
+    {
+      "imageId": "1365e99f9b419a764407be4849d4c7cc",
+      "link": "https://www.apartmentguide.com/blog/most-popular-columbus-neighborhoods-for-renters/",
+      "title": "The 5 Most Popular Columbus Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Corpus Christi": [],
+  "Dallas": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/dallas/",
+      "imageId": "bc0aa29a1bce4737cb560b0e08007fd8",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-dallas/",
+      "title": "The Average Rent in Dallas",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/dallas/",
+      "imageId": "5720b1075dfd752fafc2137a2b356f0f",
+      "link": "https://www.apartmentguide.com/blog/living-in-dallas/",
+      "title": "10 Things to Know About Living in Dallas",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/dallas/",
+      "imageId": "0267daa1fb67b9b018943a2d5dfbe325",
+      "link": "https://www.apartmentguide.com/blog/dallas-fun-facts/",
+      "title": "50 Fun Facts About Dallas",
+      "topics": []
+    }
+  ],
+  "Denver": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/denver/",
+      "imageId": "3c060dbfb66c8573306e56fbb7e2a194",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-denver/",
+      "title": "The Average Rent in Denver",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/denver/",
+      "imageId": "f7a9e145c314a1cc73c0329486c3709c",
+      "link": "https://www.apartmentguide.com/blog/living-in-denver/",
+      "title": "10 Things to Know About Living in Denver",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/denver/",
+      "imageId": "384a8cf09f7c03e6a70ada51bf3547d0",
+      "link": "https://www.apartmentguide.com/blog/most-popular-apartments-in-denver/",
+      "title": "The 25 Most Popular Apartments in Denver",
+      "topics": []
+    }
+  ],
+  "Detroit": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/detroit/",
+      "imageId": "f53786aabca98baf0464ea57b47c8370",
+      "link": "https://www.apartmentguide.com/blog/living-in-detroit/",
+      "title": "10 Things to Know About Living in Detroit",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/detroit/",
+      "imageId": "2617954c81c06abb0f5b89a9cf1118ad",
+      "link": "https://www.apartmentguide.com/blog/detroit-neighborhoods-average-rent-prices/",
+      "title": "Detroit Neighborhoods by Average Rent Prices",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/detroit/",
+      "imageId": "2191d72f6643c9ca0bb1c3dcbf4fed24",
+      "link": "https://www.apartmentguide.com/blog/detroit-fun-facts/",
+      "title": "50 Fun Facts About Detroit",
+      "topics": []
+    }
+  ],
+  "Durham": [
+    {
+      "imageId": "4b283d72a57d9592acd2775da6a0d1eb",
+      "link": "https://www.apartmentguide.com/blog/let-fido-run-free-at-durham-dog-parks/",
+      "title": "Let Fido Run Free at Durham Dog Parks",
+      "topics": []
+    }
+  ],
+  "Greenville": [
+    {
+      "imageId": "820175f93391ff499025e241db42203c",
+      "link": "https://www.apartmentguide.com/blog/living-green-in-greenville-apartments/",
+      "title": "Living \"Green\" in Greenville Apartments",
+      "topics": []
+    }
+  ],
+  "Houston": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/houston/",
+      "imageId": "ff1b89d857c2ef59d5c34f049ec10b82",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-houston/",
+      "title": "The Average Rent in Houston",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/houston/",
+      "imageId": "cd1dc08a77497fb1ef693a39c0902f52",
+      "link": "https://www.apartmentguide.com/blog/living-in-houston/",
+      "title": "10 Things to Know About Living in Houston",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/houston/",
+      "imageId": "bdb200d506a7f867da72b7a04417509e",
+      "link": "https://www.apartmentguide.com/blog/houston-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Houston?",
+      "topics": []
+    }
+  ],
+  "Indianapolis": [
+    {
+      "imageId": "dfbfbef53b5b91d283ffd0aae384eee0",
+      "link": "https://www.apartmentguide.com/blog/most-popular-indianapolis-neighborhoods/",
+      "title": "The 5 Most Popular Indianapolis Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "2109f8c30737ce4f5cb7f3d171f34e25",
+      "link": "https://www.apartmentguide.com/blog/indianapolis-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Indianapolis?",
+      "topics": []
+    },
+    {
+      "imageId": "e810b2d5e17b453fbddad6f3c2483868",
+      "link": "https://www.apartmentguide.com/blog/move-indianapolis-indiana/",
+      "title": "Lets Move to...Indianapolis, Indiana",
+      "topics": []
+    }
+  ],
+  "Jacksonville": [
+    {
+      "imageId": "3cf1d2f7ca1a2f5a81359f3c94609272",
+      "link": "https://www.apartmentguide.com/blog/most-popular-jacksonville-neighborhoods/",
+      "title": "The 5 Most Popular Jacksonville Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "4f6bddc01b25cdcfd0ef8ae62433d9cc",
+      "link": "https://www.apartmentguide.com/blog/jacksonville-cheapeast-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Jacksonville?",
+      "topics": []
+    }
+  ],
+  "Knoxville": [
+    {
+      "imageId": "b45ae204166f58bf26c231f2d5e9b79b",
+      "link": "https://www.apartmentguide.com/blog/where-to-find-nice-cheap-furniture-in-knoxville-2/",
+      "title": "Where to Find Nice Cheap Furniture in Knoxville",
+      "topics": []
+    }
+  ],
+  "Lafayette": [
+    {
+      "imageId": "829d6fe0d1bf003c72a3138a8c015e2c",
+      "link": "https://www.apartmentguide.com/blog/where-to-find-nice-cheap-furniture-in-lafayette/",
+      "title": "Where to Find Nice Cheap Furniture in Lafayette",
+      "topics": []
+    }
+  ],
+  "Las Vegas": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/las-vegas/",
+      "imageId": "6bd0255a7c8441f50c7f438fcba66ce6",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-las-vegas/",
+      "title": "Las Vegas Neighborhoods by Average Rent Prices",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/las-vegas/",
+      "imageId": "e9ced020e3c00ff1916218a2a1062f27",
+      "link": "https://www.apartmentguide.com/blog/living-in-las-vegas/",
+      "title": "10 Things to Know About Living in Las Vegas",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/las-vegas/",
+      "imageId": "91a902111778b4f7b46908c60579210d",
+      "link": "https://www.apartmentguide.com/blog/las-vegas-fun-facts/",
+      "title": "50 Fun Facts About Las Vegas",
+      "topics": []
+    }
+  ],
+  "Little Rock": [
+    {
+      "imageId": "682b358e89505853e307a06ff505cb19",
+      "link": "https://www.apartmentguide.com/blog/little-rock-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Little Rock?",
+      "topics": []
+    }
+  ],
+  "Los Angeles": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/los-angeles/",
+      "imageId": "e19ca5a1954663ad21287206c2514f6e",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-los-angeles/",
+      "title": "Los Angeles Neighborhoods by Average Rent ",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/los-angeles/",
+      "imageId": "e329fcd8da1fec2140d683cb2a5aea73",
+      "link": "https://www.apartmentguide.com/blog/living-in-los-angeles/",
+      "title": "10 Things to Know About Living in Los Angeles",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/los-angeles/",
+      "imageId": "82149ee879be205b83fc6a7828dab672",
+      "link": "https://www.apartmentguide.com/blog/los-angeles-fun-facts/",
+      "title": "50 Fun Facts About Los Angeles",
+      "topics": []
+    }
+  ],
+  "Louisville": [
+    {
+      "imageId": "bdb3ec8964889a65c944bf070b027e24",
+      "link": "https://www.apartmentguide.com/blog/most-popular-louisville-neighborhoods/",
+      "title": "The 5 Most Popular Louisville Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "318631f165da2b4b1cf96f7642065195",
+      "link": "https://www.apartmentguide.com/blog/louisville-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Louisville?",
+      "topics": []
+    }
+  ],
+  "Madison": [
+    {
+      "imageId": "63b60446d9471f8947636a242506ddef",
+      "link": "https://www.apartmentguide.com/blog/most-popular-madison-neighborhoods/",
+      "title": "The 5 Most Popular Madison Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Memphis": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/memphis/",
+      "imageId": "2007d7b8541d131c9611f8dda9f19784",
+      "link": "https://www.apartmentguide.com/blog/memphis-neighborhoods-rent-prices-increasing/",
+      "title": "Memphis Neighborhoods Where Rent in Increasing the Most ",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/memphis/",
+      "imageId": "11cc768cdd5c88403ffd9477c2ffdb7e",
+      "link": "https://www.apartmentguide.com/blog/most-popular-memphis-neighborhoods/",
+      "title": "The 5 Most Popular Memphis Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Miami": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/miami/",
+      "imageId": "6e224d8e3f2d35af8be3a73ef658e32f",
+      "link": "https://www.apartmentguide.com/blog/living-in-miami/",
+      "title": "10 Things to Know About Living in Miami",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/miami/",
+      "imageId": "8f19b5fc182f1b29d7bab7f55ea13a61",
+      "link": "https://www.apartmentguide.com/blog/miami-neighborhoods-by-average-rent-prices/",
+      "title": "Miami Neighborhoods by Average Rent Prices",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/miami/",
+      "imageId": "07387610f3c03f78e8816fdcec72f6e5",
+      "link": "https://www.apartmentguide.com/blog/best-neighborhoods-in-miami-for-coffee/",
+      "title": "The Best Neighborhoods in Miami for Coffee",
+      "topics": []
+    }
+  ],
+  "Milwaukee": [
+    {
+      "imageId": "def1fd875348a819cd32f669d4b2366a",
+      "link": "https://www.apartmentguide.com/blog/most-popular-milwaukee-neighborhoods/",
+      "title": "The 5 Most Popular Milwaukee Neighborhoods for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "07ae5f917eb5525ce144d70c1114a6f6",
+      "link": "https://www.apartmentguide.com/blog/milwaukee-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Milwaukee?",
+      "topics": []
+    }
+  ],
+  "Minneapolis": [
+    {
+      "imageId": "b5bef5bd33a17241098bbca55adc4850",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-minneapolis/",
+      "title": "The Average Rent in Minneapolis",
+      "topics": []
+    },
+    {
+      "imageId": "01b7874195b74e9dc38cd79e65f90f95",
+      "link": "https://www.apartmentguide.com/blog/living-in-minneapolis/",
+      "title": "10 Things to Know About Living in Minneapolis",
+      "topics": []
+    },
+    {
+      "imageId": "6574f389b509aca77e6e841b28024421",
+      "link": "https://www.apartmentguide.com/blog/best-neighborhoods-in-minneapolis-for-coffee/",
+      "title": "The Best Neighborhoods in Minneapolis for Coffee",
+      "topics": []
+    }
+  ],
+  "Nashville": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/nashville/",
+      "imageId": "f47f6db818193aa45fc8f11ac4b54c8b",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-nashville/",
+      "title": "The Average Rent in Nashville",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/nashville/",
+      "imageId": "5ed1fe791bd9c9bd81d7fcb742390568",
+      "link": "https://www.apartmentguide.com/blog/living-in-nashville/",
+      "title": "10 Things to Know About Living in Nashville",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/nashville/",
+      "imageId": "e593d487cb9fdf1530929c7079323e9f",
+      "link": "https://www.apartmentguide.com/blog/nashville-fun-facts/",
+      "title": "50 Fun Facts About Nashville",
+      "topics": []
+    }
+  ],
+  "New Orleans": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/new-orleans/",
+      "imageId": "00ab2dee582edc049424b2ae56bdf3f2",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-new-orleans/",
+      "title": "The Average Rent in New Orleans",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/new-orleans/",
+      "imageId": "bc0f4d5be738b92e9aa930ae088b8a67",
+      "link": "https://www.apartmentguide.com/blog/new-orleans-neighborhoods-rent-prices-increasing/",
+      "title": "New Orleans Neighborhoods Where Rent is Increasing",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/new-orleans/",
+      "imageId": "40c5bd5e8251a51c0a6a15b1ef59b962",
+      "link": "https://www.apartmentguide.com/blog/best-beignets-in-new-orleans/",
+      "title": "The Best Beignets in New Orleans",
+      "topics": []
+    }
+  ],
+  "Oklahoma City": [
+    {
+      "imageId": "5ef0a445b9d74327ca157ced5588731d",
+      "link": "https://www.apartmentguide.com/blog/oklahoma-city-cheap-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Oklahoma City?",
+      "topics": []
+    }
+  ],
+  "Omaha": [
+    {
+      "imageId": "877e6e1590446887bf49996823f5a919",
+      "link": "https://www.apartmentguide.com/blog/living-in-omaha/",
+      "title": "10 Things to Know About Living in Omaha",
+      "topics": []
+    },
+    {
+      "imageId": "bf9f314bbfbbdf9aa04a7fb8e21f5f9d",
+      "link": "https://www.apartmentguide.com/blog/omaha-neighborhoods-guide/",
+      "title": "Your Guide to the Best Omaha Neighborhoods",
+      "topics": []
+    },
+    {
+      "imageId": "85643ad12b961fd50fdce13fdf9f9043",
+      "link": "https://www.apartmentguide.com/blog/omaha-neighborhoods-most-expensive-rent/",
+      "title": "Omaha Neighborhoods with the Most Expensive Rent",
+      "topics": []
+    }
+  ],
+  "Orlando": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/orlando/",
+      "imageId": "eaf2edf2d21eb41f46bffb08c3ea69ee",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-orlando/",
+      "title": "The Average Rent in Orlando",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/orlando/",
+      "imageId": "6449ed12bd51ead70abbdb4f689d9b10",
+      "link": "https://www.apartmentguide.com/blog/living-in-orlando/",
+      "title": "10 Things to Know About Living in Orlando",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/orlando/",
+      "imageId": "841d4940b85c0d19f12981ceb96ff2f8",
+      "link": "https://www.apartmentguide.com/blog/orlando-fun-facts/",
+      "title": "50 Fun Facts About Orlando",
+      "topics": []
+    }
+  ],
+  "Philadelphia": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/philadelphia/",
+      "imageId": "6bdb81e7dffbbcae26cab47c80dc47a0",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-philadelphia/",
+      "title": "The Average Rent in Philadelphia",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/philadelphia/",
+      "imageId": "591540aeb62d6bd995cc30de397bca1a",
+      "link": "https://www.apartmentguide.com/blog/living-in-philadelphia/",
+      "title": "10 Things to Know About Living in Philadelphia",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/philadelphia/",
+      "imageId": "ba60075a804d13f29e5d163e19e0f6b3",
+      "link": "https://www.apartmentguide.com/blog/best-cheesesteak-in-philadelphia/",
+      "title": "Where to Find the Best Cheesesteak in Philadelphia",
+      "topics": []
+    }
+  ],
+  "Phoenix": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/phoenix/",
+      "imageId": "34e65235860e168d798468340326cacc",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-phoenix/",
+      "title": "The Average Rent in Phoenix",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/phoenix/",
+      "imageId": "9e7bfbc4de25d27d2ceea6cf7b9e2d44",
+      "link": "https://www.apartmentguide.com/blog/phoenix-fun-facts/",
+      "title": "50 Fun Facts About Phoenix",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/phoenix/",
+      "imageId": "b2e1c762dbbe299a134ada8ebea03ee9",
+      "link": "https://www.apartmentguide.com/blog/most-popular-phoenix-neighborhoods-for-renters/",
+      "title": "The 5 Most Popular Phoenix Neighborhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Portland": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/portland/",
+      "imageId": "5c645b9154829558b55aef4e7c5bfa80",
+      "link": "https://www.apartmentguide.com/blog/best-vegan-restaurants-in-portland/",
+      "title": "The Best Vegan Restaurants in Portland",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/portland/",
+      "imageId": "3da7a57997daee6aa1cb60fbb1d1c70a",
+      "link": "https://www.apartmentguide.com/blog/living-in-portland/",
+      "title": "10 Things to Know About Living in Portland",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/portland/",
+      "imageId": "c173475b7eeea7725cf94a5914e896f4",
+      "link": "https://www.apartmentguide.com/blog/best-camping-near-portland/",
+      "title": "The Best Places for Camping Near Portland",
+      "topics": []
+    }
+  ],
+  "Raleigh": [
+    {
+      "imageId": "b796606156a5a8c98272eb7c016efb0c",
+      "link": "https://www.apartmentguide.com/blog/welcome-to-raleigh/",
+      "title": "3 Things to Know About Moving to Raleigh",
+      "topics": []
+    },
+    {
+      "imageId": "45055ecc23e747a0e387cf3ce09d8708",
+      "link": "https://www.apartmentguide.com/blog/raleigh-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Raleigh?",
+      "topics": []
+    },
+    {
+      "imageId": "a09c0e7edb0ae76a30db6d5235b9f06b",
+      "link": "https://www.apartmentguide.com/blog/best-golf-courses-in-raleigh/",
+      "title": "The Best Golf Courses in Raleigh",
+      "topics": []
+    }
+  ],
+  "Reno": [
+    {
+      "imageId": "52813efdcd7f8273779a8322e0e25783",
+      "link": "https://www.apartmentguide.com/blog/most-popular-reno-neighborhoods/",
+      "title": "The 5 Most Popular Neighborhoods in Reno for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "b2b253732f7ec655c06307c14efc0715",
+      "link": "https://www.apartmentguide.com/blog/reno-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Reno?",
+      "topics": []
+    },
+    {
+      "imageId": "6f907873518cd67124a367b7f4579cfb",
+      "link": "https://www.apartmentguide.com/blog/welcome-to-reno/",
+      "title": "Welcome to Reno",
+      "topics": []
+    }
+  ],
+  "Richmond": [
+    {
+      "imageId": "4a51ba7aff4723d7982e015abd1bfcf5",
+      "link": "https://www.apartmentguide.com/blog/most-popular-richmond-neighborhoods/",
+      "title": "The 5 Most Popular Neighborhoods in Richmond for Renters",
+      "topics": []
+    },
+    {
+      "imageId": "95f388eca042e92cb13181b58b4cb07d",
+      "link": "https://www.apartmentguide.com/blog/richmond-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Richmond?",
+      "topics": []
+    },
+    {
+      "imageId": "8d3ebc17e35b14c5d778184757005748",
+      "link": "https://www.apartmentguide.com/blog/which-richmond-neighborhood-fits-you/",
+      "title": "Which Richmond Neighborhood Fits You?",
+      "topics": []
+    }
+  ],
+  "Sacramento": [
+    {
+      "imageId": "c5e6cf38fc0de6e4fdd7510275041399",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-sacramento/",
+      "title": "The Average Rent in Sacramento",
+      "topics": []
+    },
+    {
+      "imageId": "e04d2cbbee0875f69267ec3bb4009e92",
+      "link": "https://www.apartmentguide.com/blog/most-popular-sacramento-neighborhoods/",
+      "title": "The 5 Most Popular Sacramento Neighorhoods for Renters",
+      "topics": []
+    }
+  ],
+  "Saint Louis": [
+    {
+      "imageId": "e72f2ad0f2084fff9d781c9e9a8b77f8",
+      "link": "https://www.apartmentguide.com/blog/st-louis-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in St. Louis?",
+      "topics": []
+    },
+    {
+      "imageId": "3d8f52156780360457fde85a2b6ca093",
+      "link": "https://www.apartmentguide.com/blog/st-louis-neighborhoods-guide/",
+      "title": "A Guide to St. Louis Neighborhoods",
+      "topics": []
+    }
+  ],
+  "Salt Lake City": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/salt-lake-city/",
+      "imageId": "0087b448e3725829089aa3a5752f4ab1",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-salt-lake-city/",
+      "title": "The Average Rent in Salt Lake City",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/salt-lake-city/",
+      "imageId": "8ff0effac1d5ee40fa78b6ec07916be8",
+      "link": "https://www.apartmentguide.com/blog/living-in-salt-lake-city/",
+      "title": "10 Things to Know About Living in Salt Lake City",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/salt-lake-city/",
+      "imageId": "b10a0a410797c0bb62eea935c6678608",
+      "link": "https://www.apartmentguide.com/blog/salt-lake-city-facts/",
+      "title": "50 Fun Facts About Salt Lake City",
+      "topics": []
+    }
+  ],
+  "San Antonio": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-antonio/",
+      "imageId": "81dcb4b0439c7b20558ec40d786cf322",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-san-antonio/",
+      "title": "The Average Rent in San Antonio",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-antonio/",
+      "imageId": "4a71d485ed6ed1b9ce0b338c1e8e6811",
+      "link": "https://www.apartmentguide.com/blog/living-in-san-antonio/",
+      "title": "10 Things to Know About Living in San Antonio",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-antonio/",
+      "imageId": "9a7dc0806f5b1c736ed8c96924d5abdf",
+      "link": "https://www.apartmentguide.com/blog/san-antonio-neighborhoods-rent-prices-increasing/",
+      "title": "San Antonio Neighborhoods Where Rent is Increasing",
+      "topics": []
+    }
+  ],
+  "San Diego": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-diego/",
+      "imageId": "05fbd66ae1ff4b2a3290cf0e3e4dd8cf",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-san-diego/",
+      "title": "The Average Rent in San Diego",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-diego/",
+      "imageId": "a7554bb9651cc77a2734e26e601f78a5",
+      "link": "https://www.apartmentguide.com/blog/living-in-san-diego/",
+      "title": "10 Things to Know About Living in San Diego",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-diego/",
+      "imageId": "764c8aece26653147f64b091a774f65c",
+      "link": "https://www.apartmentguide.com/blog/best-vegan-restaurants-in-san-diego/",
+      "title": "The Best Vegan Restaurants in San Diego",
+      "topics": []
+    }
+  ],
+  "San Francisco": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-francisco/",
+      "imageId": "c98f58939b142e75e2cbadf5c86496a5",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-san-francisco/",
+      "title": "The Average Rent in San Francisco",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-francisco/",
+      "imageId": "ed21290a3bf2664e978d9f2a5e4ffda5",
+      "link": "https://www.apartmentguide.com/blog/living-in-san-francisco/",
+      "title": "10 Things to Know About Living in San Francisco",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/san-francisco/",
+      "imageId": "a4431da002bafd84db5b3959c4bcf9d7",
+      "link": "https://www.apartmentguide.com/blog/best-neighborhoods-in-san-francisco-for-coffee/",
+      "title": "The Best San Francisco Neighborhoods for Coffee",
+      "topics": []
+    }
+  ],
+  "Savannah": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/savannah/",
+      "imageId": "d71635c19a4b29e1eeb767fc287ad961",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-savannah/",
+      "title": "The Average Rent in Savannah",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/savannah/",
+      "imageId": "3b5f65a4a410d5f65a05bf0d14188baf",
+      "link": "https://www.apartmentguide.com/blog/savannah-fun-facts/",
+      "title": "50 Fun Facts About Savannah",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/savannah/",
+      "imageId": "c828debfa5f7dc4430bfb0df607e8e95",
+      "link": "https://www.apartmentguide.com/blog/best-restaurants-in-savannah/",
+      "title": "The 10 Best Restaurants in Savannah",
+      "topics": []
+    }
+  ],
+  "Seattle": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/seattle/",
+      "imageId": "ce22b9aee9b98752086234ae79313773",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-seattle/",
+      "title": "The Average Rent in Seattle",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/seattle/",
+      "imageId": "c71fea9b1c6eaa4524190bf8b1152ac8",
+      "link": "https://www.apartmentguide.com/blog/living-in-seattle/",
+      "title": "10 Things to Know About Living in Seattle",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/seattle/",
+      "imageId": "c2e0cd28af53228b8ba353cdac9af94d",
+      "link": "https://www.apartmentguide.com/blog/best-neighborhoods-in-seattle-for-coffee/",
+      "title": "The Best Seattle Neighborhoods for Coffee",
+      "topics": []
+    }
+  ],
+  "Tacoma": [
+    {
+      "imageId": "0d7c1a4c1be40af2dcecd60dc9651f11",
+      "link": "https://www.apartmentguide.com/blog/where-to-find-nice-cheap-furniture-in-tacoma/",
+      "title": "Where to FInd Nice Cheap Furniture in Tacoma",
+      "topics": []
+    }
+  ],
+  "Tampa": [
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/tampa/",
+      "imageId": "90e400661a43c90927ca910ca9dfd78e",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-tampa/",
+      "title": "The Average Rent in Tampa",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/tampa/",
+      "imageId": "e44b6828985a1409dcdbee417f1799a5",
+      "link": "https://www.apartmentguide.com/blog/living-in-tampa/",
+      "title": "10 Things to Know About Living in Tampa",
+      "topics": []
+    },
+    {
+      "categoryUrl": "https://www.apartmentguide.com/blog/city/tampa/",
+      "imageId": "c8a43b0f67fb2a805c0923f22f60543d",
+      "link": "https://www.apartmentguide.com/blog/tampa-fun-facts/",
+      "title": "50 Fun Facts About Tampa",
+      "topics": []
+    }
+  ],
+  "Virginia Beach": [
+    {
+      "imageId": "69485a13a7757d25c16ca342ed1c77d6",
+      "link": "https://www.apartmentguide.com/blog/virginia-beach-cheapest-apartments-best-schools/",
+      "title": "Where are the Cheapest Apartments Near the Best Schools in Virginia Beach?",
+      "topics": []
+    }
+  ],
+  "Washington": [
+    {
+      "imageId": "5cd1f9a836c5416b9811b12025349a9d",
+      "link": "https://www.apartmentguide.com/blog/average-rent-in-washington-dc/",
+      "title": "The Average Rent in Washington DC",
+      "topics": []
+    },
+    {
+      "imageId": "9cd15950d9375127daad5e5045311719",
+      "link": "https://www.apartmentguide.com/blog/best-vegan-restaurants-washington-dc/",
+      "title": "The Best Vegan Restaurants in Washington DC",
+      "topics": []
+    },
+    {
+      "imageId": "f95cc4f6bf3f3ec1cb20b4b97287a4f9",
+      "link": "https://www.apartmentguide.com/blog/washington-dc-neighborhoods-most-expensive-rent/",
+      "title": "Washington DC Neighborhoods with the Most Expensive Rent",
+      "topics": []
+    }
+  ],
+  "Winston Salem": [
+    {
+      "imageId": "d1f9e68dd64accf91d823d20497230c2",
+      "link": "https://www.apartmentguide.com/blog/where-to-find-nice-cheap-furniture-in-winston-salem/",
+      "title": "Where to Buy Nice Cheap Furniture in Winston-Salem",
+      "topics": []
+    }
+  ]
+}
