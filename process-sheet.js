@@ -5,6 +5,7 @@ const fs = require('fs')
 const axios = require('axios')
 const cheerio = require('cheerio')
 const flatCache = require('flat-cache')
+const prettier = require('prettier')
 const styleParse = require('style-to-js').default
 const { Command } = require('commander')
 const { GoogleSpreadsheet } = require('google-spreadsheet')
@@ -17,7 +18,8 @@ program
   .description('Generate local info blog links for AG from google spreadsheet data')
   .requiredOption('-c, --credentials <file>', 'JSON Credentials File from Google')
   .requiredOption('-s, --sheet <id>', 'Google spreadsheet ID number')
-  .option('-o, --output <file>', 'JSON Results Output')
+  .option('-o, --output <file.js>', 'Javascript file Results Output', './output.js')
+  .option('-v, --verbose', 'Print output to screen')
   .option(
     '--cloudinary <url>',
     'Rentpath API to generate cloudinary imageId',
@@ -34,9 +36,14 @@ const cache = flatCache.load('image-cache', './')
 // Initialize the sheet - doc ID is the long id in the sheets URL
 const doc = new GoogleSpreadsheet(options.sheet)
 
-function handleError(error) {
+function saveCache() {
   cache.save()
+  const cacheString = fs.readFileSync('./image-cache', { encoding: 'utf8', flag: 'r' })
+  const cacheStringPretty = prettier.format(cacheString, { max_line_length: 200, parser: 'json' })
+  fs.writeFileSync('./image-cache', cacheStringPretty)
+}
 
+function handleError(error) {
   console.log('There was an error')
   console.log(error)
 }
@@ -56,45 +63,43 @@ async function getSheet(index = 0) {
   return doc.sheetsByIndex[index]
 }
 
-async function processRawRows(sheet) {
-  const rows = await sheet.getRows({ offset: 1 }) // skip first row
+async function readPerCityLinks(sheet) {
+  const rows = await sheet.getRows() // skip first row
 
   return rows
     .map((row) => {
-      const [city, title1, link1, title2, link2, title3, link3] = row._rawData
+      const [city, ...links] = row._rawData
 
-      const links = []
-
-      if (title1 !== 'N/A' && link1 !== 'N/A') {
-        links.push({ title: title1, link: link1 })
+      return {
+        city: city.trim().replace(/\s+/g, '-').toLowerCase(),
+        links: links.filter((link) => link !== 'N/A'),
       }
-
-      if (title2 !== 'N/A' && link2 !== 'N/A') {
-        links.push({ title: title2, link: link2 })
-      }
-
-      if (title3 !== 'N/A' && link3 !== 'N/A') {
-        links.push({ title: title3, link: link3 })
-      }
-
-      return { city: city.replace(/-/g, ' '), links }
     })
     .filter((row) => row.links.length)
 }
 
-function scrapeBlogHeaderImage(target) {
+function scrapeBlogTitle($) {
+  const titleEl = $('.ag-article-title h1')
+  return titleEl
+    .html()
+    .replace(/(<([^>]+)>)/gi, '')
+    .trim()
+}
+
+function scrapeBlogHero($) {
+  const heroStyle = $('.ag-featured-article-image').attr('style')
+  const bgStyle = styleParse(heroStyle).background
+
+  return (bgUrl = /url\((.*)\)/.exec(bgStyle).slice(1).shift())
+}
+
+function fetchBlogEntryContent(target) {
   return axios
     .get(target)
     .then(({ data }) => {
       const $ = cheerio.load(data)
-      const imgEl = $('.ag-featured-article-image').attr('style')
-      const bgStyle = styleParse(imgEl).background
-      const bgUrl = /url\((.*)\)/
-        .exec(bgStyle)
-        .slice(1)
-        .shift()
 
-      return bgUrl
+      return Promise.all([scrapeBlogTitle($), scrapeBlogHero($)])
     })
     .catch(handleError)
 }
@@ -112,24 +117,20 @@ function backfillImageIds(rows) {
       city: row.city,
       links: await Promise.all(
         row.links.map(async (link) => {
-          const cacheKey = base64(link.link)
+          const cacheKey = base64(link)
           const cachedData = cache.getKey(cacheKey)
 
-          if (cachedData) {
-            return { ...link, ...cachedData, cached: true }
+          if (cachedData && cachedData.imageId && cachedData.title) {
+            return { link, ...cachedData, cached: true }
           }
 
-          const imageUrl = await scrapeBlogHeaderImage(link.link)
-          const imageId = await generateCloudinaryId(imageUrl)
+          const [title, imageUrl] = await fetchBlogEntryContent(link)
+          const imageId =
+            (cachedData && cachedData.imageId) || (await generateCloudinaryId(imageUrl))
 
-          cache.setKey(cacheKey, { imageUrl, imageId })
+          cache.setKey(cacheKey, { imageUrl, imageId, title })
 
-          return {
-            ...link,
-            imageUrl,
-            imageId,
-            cached: false,
-          }
+          return { imageId, link, title, cached: false }
         }),
       ),
     })),
@@ -155,8 +156,11 @@ function writeFinal(data) {
     return data
   }
 
+  const rawResult = `export const LOCAL_ARTICLES: ILocalArticle = ${JSON.stringify(data)}`
+  	const finalResult = prettier.format(rawResult, { max_line_length: 120, singleQuote: true, parser: 'babel' })
+
   return new Promise((resolve, reject) => {
-    fs.writeFile(options.output, JSON.stringify(data, undefined, 2), (err) => {
+    fs.writeFile(options.output, finalResult, (err) => {
       if (err) {
         reject(err)
       }
@@ -169,12 +173,14 @@ function writeFinal(data) {
 
 setupAccess()
   .then(() => getSheet(0))
-  .then(processRawRows)
+  .then(readPerCityLinks)
   .then(backfillImageIds)
   .then(finalProcessor)
   .then(writeFinal)
   .then((results) => {
-    console.log(JSON.stringify(results, undefined, 2))
+    if (options.verbose) {
+      console.log(JSON.stringify(results, undefined, 2))
+    }
   })
-  .then(() => cache.save())
+  .then(saveCache)
   .catch(handleError)
