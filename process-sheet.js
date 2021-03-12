@@ -12,6 +12,8 @@ const { GoogleSpreadsheet } = require('google-spreadsheet')
 
 const CATEGORIES = require('./categories.json')
 
+const BLOG_LINK_REGEX = /^https:\/\/www.apartmentguide.com\/blog/
+
 const program = new Command()
 
 program
@@ -68,11 +70,12 @@ async function readPerCityLinks(sheet) {
 
   return rows
     .map((row) => {
-      const [city, ...links] = row._rawData
+       const [city, ...links] = row._rawData
+       const citySlug = city.trim().replace(/\s+/g, '-').toLowerCase();
 
       return {
-        city: city.trim().replace(/\s+/g, '-').toLowerCase(),
-        links: links.filter((link) => link !== 'N/A'),
+        city: citySlug,
+        links: links.filter((link) => BLOG_LINK_REGEX.exec(link)),
       }
     })
     .filter((row) => row.links.length)
