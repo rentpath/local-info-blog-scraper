@@ -14,6 +14,14 @@ The end result is a JSON file that you will point to with the `-c | --credential
 A very important step is that you will have to invite the lengthy google services account email address to
 the spreadsheet. If you don't do this step, you will get an authentication error.
 
+I've had issues with access accross accounts, at a minimum the developer/user running the script 
+will be required to have full write access to the spreadsheet. There might be some work that can 
+be done to this script to allow it to work with read-only.
+
+# Google Sheet ID
+
+This is the long alphanumeric identifier from the URL of the spreadsheet do
+
 # Output
 
 The output file from this script is a javascript file meant to be used replace the 
