@@ -89,11 +89,32 @@ function scrapeBlogTitle($) {
     .trim()
 }
 
-function scrapeBlogHero($) {
-  const heroStyle = $('.ag-featured-article-image').attr('style')
-  const bgStyle = styleParse(heroStyle).background
+// const heroStyle = $('.ag-featured-article-image').attr('style')
+const BG_REGEX = /(https.*(jpe?g|png))/
 
-  return (bgUrl = /url\((.*)\)/.exec(bgStyle).slice(1).shift())
+function scrapeBlogHero($) {
+  let bgImage = ""
+  const heroStyle = $('.ag-featured-article-image').attr('style')
+  
+  if (heroStyle) {
+    bgImage = styleParse(heroStyle).background
+  } else {
+    bgImage = $('.ag-featured-article-image').attr('data-bg')
+  }
+
+  if (!bgImage) {
+    throw new Error('unable to scrape/find .ag-featured-article-image element')
+  }
+
+  bgImage = BG_REGEX.exec(bgImage)
+
+  if (!bgImage) {
+    throw new Error(
+      'unable to scrape/find background image from .ag-featured-article-image element',
+    )
+  }
+
+  return bgImage.slice(1).shift()
 }
 
 function fetchBlogEntryContent(target) {
