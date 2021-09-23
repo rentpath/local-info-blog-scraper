@@ -17,6 +17,7 @@ the spreadsheet. If you don't do this step, you will get an authentication error
 The services account used to run the script: e.g. `ag-5698@vernal-period-307117.iam.gserviceaccount.com`
 will be required to have read/write access to the document
 
+
 # Google Sheet ID
 
 This is the long alphanumeric identifier from the URL of the spreadsheet doc
@@ -33,7 +34,15 @@ id's based on base64 encodings of the image URLs. This will ensure that we don't
 and allows us to run this script at will multiple times.
 
 # Command Help
+```
+node version: 14.16.0
 
+yarn install
+node process-sheet.js -s GoogleSheetId -c ./credentials.json
+```
+Note: 
+- Replace `GoogleSheetId` with the long alphanumeric identifier from url of spreadsheet doc. 
+- `./credentials.json` will be the json file received by correctly setting up the service account from google developer console account.
 ```
 ./process-sheet.js -h
 ```
